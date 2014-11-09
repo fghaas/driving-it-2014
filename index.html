@@ -31,6 +31,24 @@
 		 data-vertical="^\n\n"
 		 data-notes="^Note:" >
 	</section>
+	<section id="ceph"
+		 data-markdown="markdown/ceph.md"
+		 data-separator="^\n\n\n"
+		 data-vertical="^\n\n"
+		 data-notes="^Note:" >
+	</section>
+	<section id="cc"
+		 data-markdown="markdown/cc.md"
+		 data-separator="^\n\n\n"
+		 data-vertical="^\n\n"
+		 data-notes="^Note:" >
+	</section>
+	<section>
+	  <div class="qrcode" id="qrcode-contact" />
+	  <p class="small"><a href="https://www.hastexo.com/contact" id="contact">https://www.hastexo.com/contact</a></p>
+	</section>
+      </section>
+
       </div>
     </div>
 
@@ -72,11 +90,13 @@ Reveal.initialize({
     history: true,
     center: true,
 
+    mouseWheel: true,
+
     // Parallax background image
-    parallaxBackgroundImage: 'images/background.jpg',
+    // parallaxBackgroundImage: 'images/background.jpg',
 
     // Parallax background size
-    parallaxBackgroundSize: '2100px 900px', // CSS syntax, e.g. "2100px 900px"
+    // parallaxBackgroundSize: '2100px 900px', // CSS syntax, e.g. "2100px 900px"
 
     theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
     transition: Reveal.getQueryHash().transition || 'fade', // default/cube/page/concave/zoom/linear/fade/none
