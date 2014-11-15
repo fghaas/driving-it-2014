@@ -18,4 +18,3 @@
 ## These slides
 http://fghaas.github.io/driving-it-2014
 https://github.org/fghaas/driving-it-2014
-
